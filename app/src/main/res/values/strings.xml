@@ -1,0 +1,113 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="admob_banner">ca-app-pub-5343859198531516/7566909115</string>
+    <string name="admob">ca-app-pub-5343859198531516~9739089965</string>
+    <string name="app_name">Chromatix</string>
+    <string name="facebook_signin">se connecter avec Facebook</string>
+    <string name="ou_login_screen">OU</string>
+    <string name="email_login_hint">Email</string>
+    <string name="password_hint">Mot de passe</string>
+    <string name="bouton_login">connexion</string>
+    <string name="title_activity_main">MainActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_logout">Déconnexion</string>
+    <string name="title_activity_settings">Paramètres</string>
+    <string name="settings_category_basic">Général</string>
+    <string name="settings_overlay_summary">Activer le filtre de couleur</string>
+    <string name="settings_overlay_title">Overlay</string>
+    <string name="settings_category_advanced">Paramètres de notification</string>
+    <string name="pref_system_overlay">Dessiner par dessus les applications</string>
+    <string name="pref_title_ringtone">Sonnerie</string>
+    <string name="pref_title_vibrate">Vibrer</string>
+    <string name="pref_title_new_message_notifications">Notifications</string>
+    <string name="settings_update_email_preference">Changer d\'adresse mail</string>
+    <string name="pref_email_empty" />
+    <string name="pref_ringtone_silent">Silencieux</string>
+    <string name="about_card1_message">Hey, donne ton avis !</string>
+    <string name="about_card2_title">Si vous avez aimé l\'application, n\'hésitez pas à nous contacter.</string>
+    <string name="about_google_play">Noter sur Google Play</string>
+    <string name="about_email">Retour par email</string>
+    <string name="about_address">Paris, France</string>
+    <string name="about_activity_name">A propos</string>
+    <string name="about_source_licenses">Copyright Chromatix.</string>
+    <string name="quizz_normal">Vous n\'avez pas de déficience !</string>
+    <string name="quizz_tritano">Vous êtes tritanope !</string>
+    <string name="quizz_protanope">Vous êtes protanope !</string>
+    <string name="quizz_deutera">Vous êtes deutéranope !</string>
+    <string name="questionImage">image ishihara</string>
+    <string name="rep_quizz_hint">Entrez un nombre</string>
+    <string name="validate_button">Valider</string>
+    <string name="idk_button">Je ne sais pas</string>
+    <string name="share_with">Partager</string>
+    <string name="invite">Invité</string>
+    <string name="large_text" tools:ignore="Typos">
+    "Bonjour à tous,\n"
+        "Nous sommes une petite équipe de 6 étudiants en 3ème année d'école d'ingénieurs."
+        " Nous avons développé Chromatix pour répondre au besoin des personnes atteintes de daltonisme"
+        " et ne pouvant ainsi pas percevoir les couleurs telles qu'elles sont réellement.\n\n"
+        "Ce projet étant un projet d'année 3 pour l'école, nous devions réaliser un prototype fonctionnel et assez perfectionné.\n"
+        "Nous avons ainsi décidé d'implémenter un suivi utilisateur avec Firebase, afin d'adapter au mieux nos fonctionnalités à votre utilisation.\n\n"
+        "Comme vous vous en doutez, nous ne disposons pas de fonds suffisants lorsque l'application dépassera 100 utilisateurs actifs en même temps.\n"
+        "C'est pourquoi nous serions très reconnaissants si vous réalisiez un don (de la valeur que vous voulez) afin de couvrir les frais relatifs à la disponibilité de cette application.\n\n"
+        "Les frais s'élèvent à 25€ pour la mise en ligne de Chromatix sur le Play Store, puis à 25€ par mois lorsque nous aurons un plus grand nombre d'utilisateurs.\n"
+        "Si chacun de vous donnait 1€, nous aurions très rapidement atteint nos objectifs et pourront vous proposer du contenu supplémentaire selon vos demandes.\n\n"
+        "Nous vous remercions également de comprendre la mise en place des publicités qui aident à financer nos services lorsque vous cliquez dessus.\n"
+        "Votre équipe Chromatix"
+    </string>
+    <string name="titleDefChoice">Déficience</string>
+    <string name="settings_list_preference_dialog_title">Votre déficience</string>
+    <string name="dialog_ok">C\'est parti</string>
+    <string name="dialog_cancel">Annuler</string>
+    <string name="main_dialog_simple_message">Vous vous apprêtez à réinitialiser le test d\'ishihara que vous avez réalisé auparavant. Etes vous sûr de vouloir continuer ?</string>
+    <string name="main_dialog_simple_title">Attention !</string>
+    <string name="main_dialog_welcome_title">Bienvenue !</string>
+    <string name="welcome_dialog_message">Bonjour et bienvenue dans ce test destiné à détecter votre déficience de couleur ! Vous allez devoir répondre à 21 questions dans lesquelles vous devrez retrouver le chiffre de l\'image. Bon courage !</string>
+    <string name="startBy">Commencez par prendre une photo ou par importer une image</string>
+    <string name="color">RGB (%1$d\, %2$d\, %3$d) : \n%4$s</string>
+
+    <string name="no_def">Déficience : Aucune</string>
+    <string name="tritano_def">Déficience : Tritanomalie</string>
+    <string name="protano_def">Déficience : Protanomalie</string>
+    <string name="deuterano_def">Déficience : Deutéranomalie</string>
+    <string name="connexion">Connexion</string>
+    <string name="create_account">Créer un compte</string>
+    <string name="register">Inscription</string>
+    <string name="connect">Se connecter</string>
+    <string name="forgot_password">Mot de passe oublié</string>
+    <string name="back_home">Revenir à l\'accueil</string>
+    <string name="logo_desc">Logo</string>
+    <string name="material_scroll_bg">material background</string>
+    <string name="colorTextViewString">Couleur</string>
+    <string name="filtreTextViewString">Filtre</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="colorsToAnalyzeString">Couleurs à analyser</string>
+    <string name="contrasteString">Contraste</string>
+    <string name="saturationString">Saturation</string>
+    <string name="SaveString">Sauvegarder</string>
+    <string name="resetString">Réinitialiser</string>
+    <string name="selectColors">Sélectionnez des couleurs</string>
+    <string name="main_dialog_multi_choice">Choisissez une ou plusieurs couleurs</string>
+    <string name="dialog_positive">OK</string>
+    <string name="colorChoiceString">Couleur</string>
+    <string name="welcome_quizz">Bienvenue !</string>
+    <string name="welcome_quizz_dialog_message">Afin de vous apporter un meilleur suivi, nous vous conseillons de réaliser un quizz pour définir votre type de daltonisme.</string>
+    <string name="quizz_welcome_no">Non merci</string>
+    <string name="dialog_neutral">Je connais mon type</string>
+
+    <string-array name="colors_array">
+        <item>Marron</item>
+        <item>Bleu</item>
+        <item>Rouge</item>
+        <item>Jaune</item>
+        <item>Gris</item>
+        <item>Rose</item>
+        <item>Orange</item>
+        <item>Vert</item>
+        <item>Violet</item>
+    </string-array>
+
+</resources>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_colorpicker"
+            android:icon="@drawable/ic_colorize_black_24dp"
+            android:title="Détecter une couleur" />
+        <item
+            android:id="@+id/nav_camera"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Prendre en photo" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Importer" />
+        <item
+            android:id="@+id/nav_quizz"
+            android:icon="@drawable/ic_assessment_black_24dp"
+            android:title="Quizz" />
+        <item
+            android:id="@+id/nav_settings"
+            android:icon="@drawable/ic_settings_black_24dp"
+            android:title="Paramètres" />
+    </group>
+
+    <group android:checkableBehavior="single"
+        android:id="@+id/group_middle">
+        <item
+            android:id="@+id/nav_about"
+            android:icon="@drawable/ic_info_black_24dp"
+            android:title="A propos" />
+        <item
+            android:id="@+id/nav_donation"
+            android:icon="@drawable/ic_monetization_on_black_24dp"
+            android:title="Faire un don" />
+    </group>
+
+</menu>

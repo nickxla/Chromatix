@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.nickxla.chromatix.QuizzActivity">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginVertical="10dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/questionImage"
+            android:layout_width="match_parent"
+            android:layout_height="275dp"
+            android:contentDescription="@string/questionImage"
+            android:scaleType="fitCenter"
+            android:layout_marginBottom="5dp"
+            app:srcCompat="@drawable/ish01" />
+
+        <EditText
+            android:id="@+id/inputReponse"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/rep_quizz_hint"
+            android:inputType="numberSigned" />
+
+        <Button
+            android:id="@+id/validate_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onButtonClick"
+            android:layout_marginVertical="5dp"
+            android:background="@drawable/button_layout"
+            android:text="@string/validate_button" />
+
+        <Button
+            android:id="@+id/idk_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_layout"
+            android:onClick="onButtonClick"
+            android:text="@string/idk_button" />
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
